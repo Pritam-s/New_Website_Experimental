@@ -2,3 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+.navbar{
+    border: 3px solid black;
+}
+
+.logo{
+    border: 3px solid red;
+}
+
+.logo img{
+    width: 10rem;
+    height: 4rem;
+}
