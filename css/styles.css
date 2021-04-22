@@ -190,7 +190,7 @@ hr{
 
 .ProductBox:hover {
   /* border: 3px solid green; */
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 4px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
@@ -252,8 +252,16 @@ hr{
 .SocialIcons img{
   width: 2rem;
   height: auto;
-
 }
+
+
+.SocialIcons img:hover{
+  width: 2.5rem;
+  height: auto;
+  transition: 0.3s;
+}
+
+
 
 
   .SocialIcons p {
