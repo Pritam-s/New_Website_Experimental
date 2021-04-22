@@ -1,3 +1,5 @@
+/* Normal.CSS */
+
 * {
   margin: 0;
   padding: 0;
@@ -53,6 +55,7 @@ hr{
   color: green;
   cursor: pointer;
 }
+
 .navlist li a:active {
   text-decoration: none;
   font-weight: 600;
@@ -202,6 +205,8 @@ hr{
 }
 
 
+
+
 /* PreFooter Section */
 .PreFooterContainer{
   /* border: 3px solid red; */
@@ -262,8 +267,6 @@ hr{
 }
 
 
-
-
   .SocialIcons p {
     margin: 1rem 0rem;
     text-align: center;
@@ -275,6 +278,11 @@ hr{
   text-align: center;
 }
 
+.ProductBox:nth-child(10){
+  display: none;
+  }
+
+/* Normal CSS */
 
 
 
@@ -411,6 +419,10 @@ hr{
 .FooterLeft{
   display: none;
 }
+
+.ProductBox:nth-child(10){
+  display:block;
+  }
 
 
 
@@ -577,6 +589,13 @@ hr{
    display: none;
  }
 
+ .ProductBox:nth-child(10){
+  display:block;
+  }
+
+ 
+ 
+
 }
 
 
@@ -682,6 +701,12 @@ hr{
   padding: 0rem 4rem;
   /* width: 100rem; */
 }
+
+.ProductBox:nth-child(10){
+  display:block;
+  }
+
+
 
 
 
