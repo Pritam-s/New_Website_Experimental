@@ -19,6 +19,10 @@ hr{
 }
 
 .navbar-container {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
 }
 
 .navbar {
@@ -27,6 +31,8 @@ hr{
   justify-content: space-between;
   align-items: center;
   height: 8rem;
+  position: sticky;
+  top: 0;
 }
 
 .navlist {
@@ -300,6 +306,7 @@ hr{
   .navbar-container {
     width: 20rem;
     margin: auto;
+    position: static;
   }
 
   .navbar {
@@ -450,6 +457,7 @@ hr{
   .navbar-container {
     width: max-content;
     margin: auto;
+    position: static;
   }
 
   .navbar {
